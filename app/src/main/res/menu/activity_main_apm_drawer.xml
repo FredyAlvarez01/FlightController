@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Mapa" />
+
+        <item
+            android:id="@+id/Panel"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Panel" />
+
+        <item
+            android:id="@+id/Postura"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Postura" />
+
+
+        <item
+            android:id="@+id/Modos_vuelo"
+            android:title="@string/modos_de_vuelo">
+            <menu>
+                <item
+                    android:id="@+id/stabilize"
+                    android:icon="@android:drawable/radiobutton_on_background"
+                    android:title="STABILIZE" />
+                <item
+                    android:id="@+id/loiter"
+                    android:icon="@android:drawable/radiobutton_on_background"
+                    android:title="LOITER" />
+                <item
+                    android:id="@+id/guided"
+                    android:icon="@android:drawable/radiobutton_on_background"
+                    android:title="GUIDED" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alvarez.edu.flightmodeapp.FragmentPanel"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="394dp"
+        android:layout_height="80dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_weight="1.09">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal" >
+
+            <TableRow
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/panel_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Despegar"
+                    android:id="@+id/button"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonaltura" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R.Casa"
+                    android:id="@+id/button7"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonRegresoCasa" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aterrizar"
+                    android:id="@+id/button10"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonaterrizar" />
+            </TableRow>
+
+            <TableRow
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/panel_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parar.Sig"
+                    android:id="@+id/button11"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="detenerSigueme" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M.Sigueme"
+                    android:id="@+id/button12"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="rutinaseguimiento" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I.Guiado"
+                    android:id="@+id/button13"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonGuided" />
+            </TableRow>
+
+            <TableRow
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/panel_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Armar"
+                    android:id="@+id/botonarmar"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonArmar" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desarmar"
+                    android:id="@+id/button15"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="botonDesarmar" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/panel_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="G.Datos"
+                    android:id="@+id/button16"
+                    android:background="@drawable/estilo_boton"
+                    android:onClick="guardaddatos" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

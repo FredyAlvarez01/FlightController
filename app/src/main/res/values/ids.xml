@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="title_bluetooth_devices" type="id">title</item>
+    <item name="bluetooth_device_info" type="id">info</item>
+</resources>

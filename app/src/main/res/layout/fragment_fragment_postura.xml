@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alvarez.edu.flightmodeapp.FragmentPostura">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_gravity="left|bottom"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textoroll"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Roll"
+            android:shadowColor="#5abcbf"
+            android:background="@android:drawable/button_onoff_indicator_off" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textopitch"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Pitch"
+            android:background="@android:drawable/button_onoff_indicator_off" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Yaw"
+            android:id="@+id/textoyaw"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@android:drawable/button_onoff_indicator_off" />
+    </LinearLayout>
+
+    <com.alvarez.edu.flightmodeapp.postura.AttitudeIndicator
+        android:layout_width="144dp"
+        android:layout_height="122dp"
+        android:id="@+id/postura"
+        android:layout_gravity="left|bottom" />
+
+</FrameLayout>
