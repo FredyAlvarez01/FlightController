@@ -4,7 +4,7 @@
 <b align="center">**Diagrama General de la aplicación:**<b/>
  <br />
 
-[![Diagrama-General-App.png](https://i.postimg.cc/43RpsRKJ/Diagrama-General-App.png)](https://postimg.cc/9D1DYStS) 
+[![Diagrama-General-App.png](https://i.postimg.cc/43RpsRKJ/Diagrama-General-App.png)](https://postimg.cc/9D1DYStS)  <br />
 **Interfaz Inicial:**<br /> 
 [![Intefaz-Inicial.png](https://i.postimg.cc/SsD96Xgs/Intefaz-Inicial.png)](https://postimg.cc/DJ4mFzkk)
 
