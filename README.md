@@ -1,7 +1,7 @@
 # FlightController
 **Diseño e implementación de una aplicación para telefonos inteligentes, capaz de realizar una conexión inalámbrica , transmisión, recepción de datos y ejecución de mandos para el desarrollo de un vuelo autónomo de seguimiento con el cuadricóptero.**
 
-**Diagrama General de la plaicación:** <br />
+**Diagrama General de la aplicación:** <br />
 
 [![Diagrama-General-App.png](https://i.postimg.cc/43RpsRKJ/Diagrama-General-App.png)](https://postimg.cc/9D1DYStS)
 
