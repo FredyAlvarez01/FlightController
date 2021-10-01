@@ -3,7 +3,7 @@
 
 **Diagrama General de la aplicación:** <br />
 
-<div style="text-align:center">[![Diagrama-General-App.png](https://i.postimg.cc/43RpsRKJ/Diagrama-General-App.png)](https://postimg.cc/9D1DYStS)</div>
+<style="text-align:center">[![Diagrama-General-App.png](https://i.postimg.cc/43RpsRKJ/Diagrama-General-App.png)](https://postimg.cc/9D1DYStS)
 
 **Interfaz Inicial:**<br /> 
 [![Intefaz-Inicial.png](https://i.postimg.cc/SsD96Xgs/Intefaz-Inicial.png)](https://postimg.cc/DJ4mFzkk)
