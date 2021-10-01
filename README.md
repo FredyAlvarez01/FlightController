@@ -13,3 +13,7 @@
 
 **Interfaz modos de vuelo:**<br /> <br />
 [![Interfaz-Modos-Vuelo.png](https://i.postimg.cc/GhZyxnxk/Interfaz-Modos-Vuelo.png)](https://postimg.cc/crBCdjjH)
+ 
+ **Respuesta: seguimiento cuadricoptero a dispositivo celular:** <br /> <br />
+ 
+ [![Respuesta-Control.png](https://i.postimg.cc/5N0w4mnR/Respuesta-Control.png)](https://postimg.cc/NL3ybRh6)
